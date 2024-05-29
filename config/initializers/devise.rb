@@ -34,6 +34,9 @@ Devise.setup do |config|
 
   config.omniauth :google_oauth2, ENV['CLIENT_ID'], ENV['GOOGLE_A']
 
+  #config.omniauth :facebook, ENV['APP_ID'], ENV['APP_SECRET']
+
+  config.omniauth :facebook, '844190334403997', '593c46985316a1e28344ed889405f7df'
 
   # ==> ORM configuration
   # Load and configure the ORM. Supports :active_record (default) and
